@@ -80,11 +80,11 @@ $MySettings = array(
 
 	'db_name' => 'itop_demo',
 
-	'db_pwd' => 'root',
+	'db_pwd' => 'Itop2017',
 
 	'db_subname' => '',
 
-	'db_user' => 'root',
+	'db_user' => 'usr_itop',
 
 	// deadline_format: The format used for displaying "deadline" attributes: any string with the following placeholders: $date$, $difference$
 	//	default: '$difference$'
@@ -108,7 +108,7 @@ $MySettings = array(
 
 	'ext_auth_variable' => '$_SERVER[\'REMOTE_USER\']',
 
-	'fast_reload_interval' => 60,
+	'fast_reload_interval' => '60',
 
 	// graphviz_path: Path to the Graphviz "dot" executable for graphing objects lifecycle
 	//	default: '/usr/bin/dot'
@@ -116,11 +116,11 @@ $MySettings = array(
 
 	// inline_image_max_display_width: The maximum width (in pixels) when displaying images inside an HTML formatted attribute. Images will be displayed using this this maximum width.
 	//	default: '250'
-	'inline_image_max_display_width' => '250',
+	'inline_image_max_display_width' => 250,
 
 	// inline_image_max_storage_width: The maximum width (in pixels) when uploading images to be used inside an HTML formatted attribute. Images larger than the given size will be downsampled before storing them in the database.
 	//	default: '1600'
-	'inline_image_max_storage_width' => '1600',
+	'inline_image_max_storage_width' => 1600,
 
 	// link_set_attribute_qualifier: Link set from string: attribute qualifier (encloses both the attcode and the value)
 	//	default: '\''
@@ -146,13 +146,13 @@ $MySettings = array(
 
 	'log_web_service' => true,
 
-	'max_display_limit' => 15,
+	'max_display_limit' => '15',
 
 	// max_linkset_output: Maximum number of items shown when getting a list of related items in an email, using the form $this->some_list$. 0 means no limit.
 	//	default: 100
 	'max_linkset_output' => 100,
 
-	'min_display_limit' => 10,
+	'min_display_limit' => '10',
 
 	// online_help: Hyperlink to the online-help web page
 	//	default: 'http://www.combodo.com/itop-help'
@@ -182,7 +182,7 @@ $MySettings = array(
 	//	default: ''
 	'source_dir' => 'datamodels/2.x/',
 
-	'standard_reload_interval' => 300,
+	'standard_reload_interval' => '300',
 
 	// synchro_trace: Synchronization details: none, display, save (includes 'display')
 	//	default: 'none'
