@@ -1,0 +1,6 @@
+2017-09-11 16:50:33 | Error | BackupHandler::OnMetaModelStarted Failed to check if a backup/restore is running: Access denied for user ''@'localhost' (using password: NO)
+2017-09-11 22:29:30 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jmartinez@alltic.co
+2017-09-11 22:34:56 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jamrx115@alltic.co
+2017-09-11 22:35:11 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jamrx115@gmail.com
+2017-09-11 22:35:27 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jmartinez@alltic.co
+2017-09-11 22:35:31 | Warning | Email sending failed: Some recipients were invalid, aFailedRecipients contains: jmartinez@alltic.co
